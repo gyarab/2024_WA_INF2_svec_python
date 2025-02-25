@@ -1,0 +1,21 @@
+{% extends "content/base.html" %}
+{% load static %}
+{% block header %}
+    <h1 class="background-title">
+        Databáze nejdůležitějších bitev 19. století
+    </h1>
+    <img src="{% static 'images/austr.png' %}" 
+         alt="Pozadí nadpisu" 
+         style="display: block; margin: 10px auto; width: 600px; height: auto; border-radius: 5px;">
+{% endblock %}
+
+{% block main %}
+    <div style="text-align: center;">
+        {% for article in articles %}
+            <a href="/article/{{ forloop.counter0 }}">
+                <h2 style="font-family: 'Times New Roman', serif;">{{ article.title }}</h2>
+            </a>
+            <p>{{ article.war }}</p>
+        {% endfor %}
+    </div>
+{% endblock %}

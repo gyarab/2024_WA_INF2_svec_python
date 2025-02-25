@@ -1,0 +1,92 @@
+[
+    {
+        "title": "Bitva u Slavkova (Austerlitz)",
+        "year": 1805,
+        "war": "Válka třetí koalice",
+        "description": "Největších a nejslavnější vítězství Napoleona Bonaparte, kde porazil rakousko-ruskou armádu v rámci války třetí koalice.",
+        "location": "Morava, Rakouské císařství",
+        "casualties": "36,000",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/ba/La_bataille_d%27Austerlitz._2_decembre_1805_%28Fran%C3%A7ois_G%C3%A9rard%29.jpg"
+    },
+    {
+        "title": "Bitva u Lipska",
+        "war": "Válka šesté koalice",
+        "year": 1813,
+        "description": "Největší bitva napoleonských válek, kde Napoleon čelil silám Rakouska, Pruska, Ruska a Švédska. Při 'Bitvě národů' mu byla uštědřena porážka a musel se stáhnout až za Rýn.",
+        "location": "Sasko, Saské království",
+        "casualties": "92,000",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/MoshkovVI_SrazhLeypcigomGRM.jpg/1200px-MoshkovVI_SrazhLeypcigomGRM.jpg"
+    },
+    {
+        "title": "Bitva u Waterloo",
+        "war": "Sto denní kampaň",
+        "year": 1815,
+        "description": "Poslední bitva Napoleona Bonaparte, kde byl poražen britsko-pruskou armádou pod vedením vévody z Wellingtonu a maršálem Blücherem.",
+        "location": "Flandry, Spojené království Nizozemské",
+        "casualties": "47,000",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Battle_of_Waterloo_1815.PNG/640px-Battle_of_Waterloo_1815.PNG"
+    },
+    {
+        "title": "Bitva u Custozy",
+        "war": "První italská válka za nezávislost",
+        "year": 1848,
+        "description": "První velká bitva v první italské válce za nezávislost. Rakušané v čele s maršálem Radeckým vítězí nad Piemontem.",
+        "location": "Lombardie, Rakouské císařství",
+        "casualties": "8,000",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Custozza1866.jpg/1200px-Custozza1866.jpg"
+    },
+    {
+        "title": "Bitva u Novary",
+        "war": "První italská válka za nezávislost",
+        "year": 1849,
+        "description": "Rozhodující bitva první italské války za nezávislost. Maršál Radecký se svou rakouskou armádu uštědřuje definitivní porážku piemontskému králi.",
+        "location": "Piemont, Království Piemont-Sardinie",
+        "casualties": "12,000",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Field_Marshal_Radetzky_and_his_staff_at_the_Battle_of_Novara_on_March_23%2C_1849_%28by_Albrecht_Adam%29.jpg"
+    },
+    {
+        "title": "Bitva u Solferina",
+        "war": "Druhá italská válka za nezávislost",
+        "year": 1859,
+        "description": "Finální bitva druhé italské války za nezávislost. Francouzské a Piemontské vojsko na hlavu poráží Rakušany.",
+        "location": "Benátsko, Rakouské císařství",
+        "casualties": "40,000",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/40/Yvon_Bataille_de_Solferino_Compiegne.jpg"
+    },
+    {
+        "title": "Bitva u Děčína",
+        "war": "Rakousko-pruská válka",
+        "year": 1866,
+        "description": "Střet mezi rakouskými a pruskými jednotkami během prusko-rakouské války. Prusové získávají kontrolu nad severními Čechami.",
+        "location": "Čechy, Rakouské císařství",
+        "casualties": "3,000",
+        "image": "https://battlefieldanomalies.com/wp-content/uploads/2015/12/08gitschin.jpg"
+    },
+    {
+        "title": "Bitva u Königgrätz (Hradec Králové)",
+        "war": "Rakousko-pruská válka",
+        "year": 1866,
+        "description": "Rozhodující bitva prusko-rakouské války. Prusko získává velké vítězství, které nutí Rakouského císaře Franze Josefa přijmout příměří.",
+        "location": "Čechy, Rakouské císařství",
+        "casualties": "44,000",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTCAk2r0wr4WiDiu0AwTMOdbvRhmDZU4eynA&s"
+    },
+    {
+        "title": "Bitva u Saarbrückenu",
+        "war": "Francouzsko-pruská válka",
+        "year": 1870,
+        "description": "První střet prusko-francouzské války. Francouzi se pokouší zahájit vpád na východní břeh Rýnu, ale utrpí porážku a válka se odteď odehrává pouze na Francouzském území.",
+        "location": "Sársko, Prusko",
+        "casualties": "1,200",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/Steinmetz%2C_Gen.-In_the_battle_of_Saarbr%C3%BCcken_LCCN99405831.jpg"
+    },
+    {
+        "title": "Bitva u Sedanu",
+        "war": "Francouzsko-pruská válka",
+        "year": 1870,
+        "description": "Jedna z největších bitev prusko-francouzské války. Francouzská armáda se stáhla do pevnosti z 16. století a byla donucena se, v čele s císařem Napoleonem III., vzdát.",
+        "location": "Artois, Francie",
+        "casualties": "140,000",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Nap_sedan_von_Wilhelm_Camphausen.jpg"
+    }
+]
