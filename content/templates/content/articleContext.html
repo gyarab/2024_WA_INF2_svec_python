@@ -1,0 +1,16 @@
+{% extends "content/base.html" %}
+
+{% block header %}
+    {{ article.title }}
+{% endblock %}
+
+{% block main %}
+    <img src="{{ article.image }}" alt="{{ article.war }}" 
+         style="max-width: 1200px; height: auto; display: block; margin: 20px auto; border-radius: 5px;">
+    
+    <p><strong>Rok:</strong> {{ article.year }}</p>
+    <p><strong>Místo:</strong> {{ article.location }}</p>
+    <p><strong>Popis:</strong> {{ article.description }}</p>
+    <p><strong>Počet obětí:</strong> {{ article.casualties }}</p>
+    <p><strong>Válka:</strong> {{ article.war }}</p>
+{% endblock %}

@@ -5,7 +5,7 @@
     <style>
         body {
             position: relative; 
-            background-image: url("{% static 'images/eur.png' %}"); /* Correct path */
+            background-image: url("{% static 'images/eur.png' %}");
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
@@ -31,25 +31,40 @@
             z-index: 1;
         }
 
-        a {
-            color: #ffcc00;
-            text-decoration: none;
+        /* Battle title styling */
+        .battle-link {
+            color: #ffe600;
+            font-size: 1.5em;
             font-weight: bold;
-            position: relative;
-            z-index: 1;
+            text-decoration: none;
         }
 
-        a:hover {
-            color: #ff9900;
+        .battle-link:hover {
+            color: #ff1600;
             text-decoration: underline;
         }
 
-        a:active {
-            color: #ff6600;
+        /* War name styling */
+        .war-link {
+            color: #ff6666;
+            font-size: 1.2em;
+            font-style: italic;
+            text-decoration: none;
         }
 
-        a:visited {
-            color: #ffaa33;
+        .war-link:hover {
+            color: #55ff33;
+            text-decoration: underline;
+        }
+
+        /* Keep battle and war close together */
+        .battle-container {
+            margin-bottom: 40px; /* Increase space between different battles */
+        }
+
+        /* Reduce space between battle and war */
+        .battle-container a + a {
+            margin-top: 5px;
         }
     </style>
 
@@ -61,10 +76,15 @@
 {% block main %}
     <div style="text-align: center; position: relative; z-index: 1;">
         {% for article in articles %}
-            <a href="/article/{{ forloop.counter0 }}">
-                <h2 style="font-family: 'IM Fell English', serif;">{{ article.title }}</h2>
-            </a>
-            <p>{{ article.war }}</p>
+            <div class="battle-container">
+                <a href="/article/{{ forloop.counter0 }}" class="battle-link">
+                    {{ article.title }}
+                </a>
+                <br>
+                <a href="/war/{{ article.war }}/" class="war-link">
+                    {{ article.war }}
+                </a>
+            </div>
         {% endfor %}
     </div>
 {% endblock %}

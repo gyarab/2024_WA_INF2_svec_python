@@ -23,4 +23,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', content.views.homepage),
     path('article/<int:id>/', content.views.article),
+    path('war/<str:war>/', content.views.article_context),
 ]
