@@ -1,13 +1,13 @@
-{% load static %}
-
 <!DOCTYPE html>
-<html lang="cs">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>{% block title %}Nejvýznamnější bitvy 19. století{% endblock %}</title>
-    <link rel="stylesheet" href="{% static 'content/styles.css' %}">
+    <title>Nejvýznamnější bitvy 19. století</title>
+    <meta charset="utf-8">
 </head>
 <body>
-    {% block content %}{% endblock %}
+    <h1>{% block header %}{% endblock %}</h1>
+    <main>
+        {% block main %}{% endblock %}
+    </main>
 </body>
 </html>

@@ -1,15 +1,9 @@
 {% extends "content/base.html" %}
 {% load static %}
-
 {% block header %}
-    <head>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap">
-    </head>
-
-    <h1 style="font-family: 'IM Fell English', serif; text-align: center;">
+    <h1 style="font-family: 'Times New Roman', serif; text-align: center;">
         Databáze nejdůležitějších bitev 19. století
     </h1>
-
     <img src="{% static 'images/austr.png' %}" 
          alt="Bitva u Slavkova" 
          style="display: block; margin: 10px auto; width: 600px; height: auto; border-radius: 5px;">
@@ -19,7 +13,7 @@
     <div style="text-align: center;">
         {% for article in articles %}
             <a href="/article/{{ forloop.counter0 }}">
-                <h2 style="font-family: 'IM Fell English', serif;">{{ article.title }}</h2>
+                <h2 style="font-family: 'Times New Roman', serif;">{{ article.title }}</h2>
             </a>
             <p>{{ article.war }}</p>
         {% endfor %}
