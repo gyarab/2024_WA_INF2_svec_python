@@ -3,6 +3,8 @@
 
 {% block header %}
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap');
+
         body {
             position: relative; 
             background-image: url("{% static 'images/eur.png' %}");
@@ -37,6 +39,7 @@
             font-size: 1.5em;
             font-weight: bold;
             text-decoration: none;
+            font-family: 'IM Fell English', serif;
         }
 
         .battle-link:hover {
@@ -50,6 +53,7 @@
             font-size: 1.2em;
             font-style: italic;
             text-decoration: none;
+            font-family: 'IM Fell English', serif;
         }
 
         .war-link:hover {
@@ -59,7 +63,7 @@
 
         /* Keep battle and war close together */
         .battle-container {
-            margin-bottom: 40px; /* Increase space between different battles */
+            margin-bottom: 40px;
         }
 
         /* Reduce space between battle and war */
