@@ -16,7 +16,7 @@
 {% endblock %}
 
 {% block header %}
-    {{ war }}
+    {{ tactics }}
 {% endblock %}
 
 {% block main %}
@@ -30,11 +30,11 @@
         text-align: justify;
         color: black;
     ">
-        {% for article in war_articles %}
-            <img src="{{ article.imageWar }}" alt="{{ war }}" 
+        {% for article in tactics_articles %}
+            <img src="{{ article.imageTactics }}" alt="{{ tactics_link }}" 
                  style="max-width: 100%; height: auto; display: block; margin: 0 auto 20px; border-radius: 5px;">
-            
-            <p><strong>Kontext:</strong> {{ article.context }}</p>
+
+            <p><strong>Taktiky:</strong> {{ article.tactics }}</p>
         {% endfor %}
     </div>
 {% endblock %}

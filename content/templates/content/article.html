@@ -1,5 +1,21 @@
 {% extends "content/base.html" %}
 
+{% load static %}
+
+{% block head %}
+    <style>
+        body {
+            background-image: url("{% static 'images/eu.png' %}");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            color: white;
+        }
+    </style>
+{% endblock %}
+
+
 {% block header %}
     {{ article.title }}
 {% endblock %}
@@ -23,6 +39,6 @@
         <p><strong>Popis:</strong> {{ article.description }}</p>
         <p><strong>Počet obětí:</strong> {{ article.casualties }}</p>
         <p><strong>Válka:</strong> <a href="/war/{{ article.war }}/" style="color: #0077cc; text-decoration: none;">{{ article.war }}</a></p>
-        <p><strong>Taktika</strong> <a href="/war/{{ article.tactics }}/" style="color: #0077cc; text-decoration: none;">{{ article.tactics }}</a></p>
+        <p><strong>Odkaz na taktiky:</strong> <a href="/tactics/{{ article.tactics_link }}" style="color: #0077cc; text-decoration: none;">{{ article.tactics_link }}</a></p>
     </div>
 {% endblock %}

@@ -8,7 +8,6 @@ def homepage(request):
     with open('articles.json', encoding='utf-8') as f:
         articles = json.load(f)
 
-
     return render(request, 'content/homepage.html', {'articles': articles})
 
 def article(request, id):
@@ -26,3 +25,10 @@ def article_context(request, war):
 
     return render(request, 'content/articleContext.html', {'war_articles': war_articles, 'war': war})
 
+def article_tactics(request, tactics_link):
+    with open('articles.json', encoding='utf-8') as f:
+        articles = json.load(f)
+
+    tactics_articles = [article for article in articles if article["tactics_link"] == tactics_link]
+
+    return render(request, 'content/articleTactics.html', {'tactics_articles': tactics_articles, 'tactics': tactics_link})
