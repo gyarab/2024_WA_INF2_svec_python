@@ -22,5 +22,7 @@ def article_context(request, war):
     with open('articles.json', encoding='utf-8') as f:
         articles = json.load(f)
 
-    war_articles = [article for article in articles if war in article['tags']]
-    return render(request, 'content/article_context.html', {'war_articles': war_articles})
+    war_articles = [article for article in articles if article["war"] == war]
+
+    return render(request, 'content/articleContext.html', {'war_articles': war_articles, 'war': war})
+

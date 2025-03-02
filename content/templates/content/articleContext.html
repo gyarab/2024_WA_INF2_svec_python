@@ -1,16 +1,25 @@
 {% extends "content/base.html" %}
 
 {% block header %}
-    {{ article.title }}
+    {{ war }}
 {% endblock %}
 
 {% block main %}
-    <img src="{{ article.imageWar }}" alt="{{ article.war }}" 
-         style="max-width: 1200px; height: auto; display: block; margin: 20px auto; border-radius: 5px;">
-    
-    <p><strong>Rok:</strong> {{ article.year }}</p>
-    <p><strong>Místo:</strong> {{ article.location }}</p>
-    <p><strong>Popis:</strong> {{ article.description }}</p>
-    <p><strong>Počet obětí:</strong> {{ article.casualties }}</p>
-    <p><strong>Válka:</strong> {{ article.war }}</p>
+    <div style="
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 20px;
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        text-align: justify;
+        color: black;
+    ">
+        {% for article in war_articles %}
+            <img src="{{ article.imageWar }}" alt="{{ war }}" 
+                 style="max-width: 100%; height: auto; display: block; margin: 0 auto 20px; border-radius: 5px;">
+            
+            <p><strong>Kontext:</strong> {{ article.context }}</p>
+        {% endfor %}
+    </div>
 {% endblock %}
