@@ -7,6 +7,7 @@ class Article(models.Model):
     war = models.CharField(max_length=200)
     description = models.CharField(max_length=100)
     location = models.CharField(max_length=100)
+    casualties = models.IntegerField(default=0)
     image = models.URLField(max_length=100)
     imageWar = models.URLField(max_length=100)
     tactics_link = models.CharField(max_length=100)
