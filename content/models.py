@@ -16,6 +16,15 @@ class Article(models.Model):
     context = models.TextField()
     order = models.IntegerField(default=0)
 
+class War(models.Model):
+    name = models.CharField(max_length=100)
+    start = models.IntegerField()
+    end = models.IntegerField()
+    belligerents = models.CharField(max_length=200)
+
+class Tactics(models.Model):
+    description = models.TextField()
+
 
 
 
