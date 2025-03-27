@@ -1,6 +1,36 @@
 from django.db import models
 
 # Create your models here.
+class War(models.Model):
+    name = models.CharField(max_length=100)
+    start = models.IntegerField()
+    end = models.IntegerField()
+    context = models.TextField(default=0)
+    imageWar = models.URLField(default=0)
+    belligerents = models.CharField(max_length=200)
+
+    def __str__(self):
+        return self.name
+
+
+class Tactics(models.Model):
+    description = models.TextField()
+
+    def __str__(self):
+        return self.description
+
+
+class Era(models.Model):
+    name = models.CharField(max_length=100)
+    start = models.IntegerField()
+    end = models.IntegerField()
+    contextEra = models.TextField()
+    imageEra = models.URLField(max_length=100)
+
+    def __str__(self):
+        return self.name
+
+
 class Article(models.Model):
     title = models.CharField(max_length=100)
     year = models.IntegerField()
@@ -13,19 +43,9 @@ class Article(models.Model):
     tactics_link = models.CharField(max_length=100)
     tactics = models.TextField()
     imageTactics = models.URLField(max_length=100)
-    context = models.TextField()
+    context = models.ForeignKey(War, on_delete=models.CASCADE, related_name='articles')
+    era = models.ManyToManyField(Era, related_name='articles')
     order = models.IntegerField(default=0)
-
-class War(models.Model):
-    name = models.CharField(max_length=100)
-    start = models.IntegerField()
-    end = models.IntegerField()
-    belligerents = models.CharField(max_length=200)
-
-class Tactics(models.Model):
-    description = models.TextField()
-
-
 
 
     def __str__(self):
