@@ -44,7 +44,7 @@ class Article(models.Model):
     tactics = models.TextField()
     imageTactics = models.URLField(max_length=100)
     context = models.ForeignKey(War, on_delete=models.CASCADE, related_name='articles')
-    era = models.ManyToManyField(Era, related_name='articles')
+    eras = models.ManyToManyField(Era, related_name='articles')
     order = models.IntegerField(default=0)
 
 

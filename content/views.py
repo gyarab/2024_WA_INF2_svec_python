@@ -16,20 +16,15 @@ def article(request, id):
 
     return render(request, 'content/article.html', {'article': article})
 
-def article_context(request, war):
-    war_articles = Article.objects.filter(war=war)
+def context(request, id):
+    context = War.objects.get(pk=id)
 
-    return render(request, 'content/articleContext.html', {'war_articles': war_articles, 'war': war})
+    return render(request, 'content/articleContext.html', {'context': context})
 
 def article_tactics(request, tactics_link):
     tactics_articles = Article.objects.filter(tactics_link=tactics_link)
 
     return render(request, 'content/articleTactics.html', {'tactics_articles': tactics_articles, 'tactics': tactics_link})
-
-def war(request, id):
-    war = War.objects.get(pk=id)
-
-    return render(request, 'content/war.html', {'war': war})
 
 def era(request, id):
     era = Era.objects.get(pk=id)
