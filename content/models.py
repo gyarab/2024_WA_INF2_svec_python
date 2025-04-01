@@ -5,7 +5,7 @@ class War(models.Model):
     name = models.CharField(max_length=100)
     start = models.IntegerField()
     end = models.IntegerField()
-    context = models.TextField(default=0)
+    contextWar = models.TextField(default="")
     imageWar = models.URLField(default=0)
     belligerents = models.CharField(max_length=200)
 
