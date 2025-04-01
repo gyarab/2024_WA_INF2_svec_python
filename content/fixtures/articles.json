@@ -5,7 +5,7 @@
         "fields": {
             "title": "Bitva u Slavkova (Austerlitz)",
             "year": 1805,
-            "war": "Válka třetí koalice",
+            "war": 1,
             "description": "Největších a nejslavnější vítězství Napoleona Bonaparte, kde porazil rakousko-ruskou armádu v rámci války třetí koalice.",
             "location": "Morava, Rakouské císařství",
             "casualties": 36000,
@@ -23,7 +23,7 @@
         "pk": 2,
         "fields": {
             "title": "Bitva u Lipska",
-            "war": "Válka šesté koalice",
+            "war": 2,
             "year": 1813,
             "description": "Největší bitva napoleonských válek, kde Napoleon čelil silám Rakouska, Pruska, Ruska a Švédska. Při 'Bitvě národů' mu byla uštědřena porážka a musel se stáhnout až za Rýn.",
             "location": "Sasko, Saské království",
@@ -31,6 +31,7 @@
             "image": "https://assets.editorial.aetnd.com/uploads/2009/12/Battle-of-Leipzig-GettyImages-902944398.jpg",
             "imageWar": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/War_of_the_Sixth_Coalition_1813.svg/2021px-War_of_the_Sixth_Coalition_1813.svg.png",
             "tactics_link": "Taktiky bitv u Lipska",
+            "era": 1,
             "order": 2,
             "tactics":"Bitva začala 16. října 1813, kdy Napoleon zahájil ofenzivu proti spojeneckým vojskům rozloženým kolem Lipska. Počáteční útoky Francouzů byly úspěšné a podařilo se jim udržet své pozice. Nicméně 18. října spojenecké armády zahájily koordinovaný protiútok a sevřely Napoleonovu armádu ze všech stran. Francouzské jednotky se snažily ustoupit přes řeku Elster, avšak zničení mostu během ústupu způsobilo paniku mezi francouzskými jednotkami a vedlo ke značným ztrátám. Napoleon nakonec opustil Lipsko a ustoupil směrem k Rýnu.",
             "imageTactics": "https://media.napoleon-images.us/cartes/battle-leipzig-1.png",
@@ -42,7 +43,7 @@
         "pk": 3,
         "fields": {
             "title": "Bitva u Waterloo",
-            "war": "Sto-denní kampaň",
+            "war": 3,
             "year": 1815,
             "description": "Poslední bitva Napoleona Bonaparte, kde byl poražen britsko-pruskou armádou pod vedením vévody z Wellingtonu a maršálem Blücherem.",
             "location": "Flandry, Spojené království Nizozemské",
@@ -50,6 +51,7 @@
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Battle_of_Waterloo_1815.PNG/640px-Battle_of_Waterloo_1815.PNG",
             "imageWar": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Western_front_1918_allied.jpg/1200px-Western_front_1918_allied.jpg",
             "tactics_link": "Taktiky bitvy u Waterloo",
+            "era": [1, 3],
             "order": 3,
             "tactics":"Napoleon zahájil útok 18. června 1815 ráno silnými dělostřeleckými salvami, následovanými přímým útokem na britské pozice. Britské jednotky pod velením vévody z Wellingtonu využily obranné postavení na vyvýšenině a odolávaly francouzským útokům. Napoleon se pokusil o rozhodující úder elitními jednotkami své staré gardy, avšak v kritickém momentu dorazily pruské posily pod velením maršála Blüchera, které udeřily na francouzský bok. Francouzská armáda se ocitla v chaosu a dala se na ústup, čímž byla bitva rozhodnuta.",
             "imageTactics": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Battle_of_Waterloo_map.png/1024px-Battle_of_Waterloo_map.png",
@@ -61,7 +63,7 @@
         "pk": 4,
         "fields": {
             "title": "Bitva u Custozy",
-            "war": "První italská válka za nezávislost",
+            "war": 4,
             "year": 1848,
             "description": "První velká bitva v první italské válce za nezávislost. Rakušané v čele s maršálem Radeckým vítězí nad Piemontem.",
             "location": "Lombardie, Rakouské císařství",
@@ -69,6 +71,7 @@
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Custozza1866.jpg/1200px-Custozza1866.jpg",
             "imageWar": "https://i.ytimg.com/vi/3VaPCN27Yno/maxresdefault.jpg",
             "tactics_link": "Taktiky bitvy u Custozy",
+            "era": [1, 3],
             "order": 4,
             "tactics":"Bitva u Custozy proběhla 24.–25. července 1848, kdy piemontská armáda pod vedením Karla Alberta zahájila postup na rakouské pozice. Maršál Radecký strategicky využil terén a přinutil Piemontce k bojům na kopcovitém terénu, což znevýhodnilo jejich útočné schopnosti. Rakušané zahájili sérii protiútoků, čímž rozvrátili piemontské linie. Nejkritičtějším momentem bylo zajištění strategických výšin Monte Berico, odkud Rakušané odrazili piemontský postup a donutili nepřítele k ústupu. Po dvoudenních bojích se piemontská armáda stáhla a Radecký zajistil rakouskou kontrolu nad severní Itálií.",
             "imageTactics": "https://c8.alamy.com/comp/2RJNEX1/battle-of-custoza-1848-2RJNEX1.jpg",
@@ -80,7 +83,7 @@
         "pk": 5,
         "fields": {
             "title": "Bitva u Novary",
-            "war": "První italská válka za nezávislost.",
+            "war": 4,
             "year": 1849,
             "description": "Rozhodující bitva první italské války za nezávislost. Maršál Radecký se svou rakouskou armádu uštědřuje definitivní porážku piemontskému králi.",
             "location": "Piemont, Království Piemont-Sardinie",
@@ -88,6 +91,7 @@
             "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Field_Marshal_Radetzky_and_his_staff_at_the_Battle_of_Novara_on_March_23%2C_1849_%28by_Albrecht_Adam%29.jpg",
             "imageWar": "https://i.ytimg.com/vi/3VaPCN27Yno/maxresdefault.jpg",
             "tactics_link": "Taktiky bitvy u Novary",
+            "era": [2, 3],
             "order": 5,
             "tactics":"Bitva u Novary se odehrála 23. března 1849, kdy piemontská armáda vedená Karlem Albertem podnikla poslední pokus o porážku Rakušanů. Maršál Radecký soustředil své síly a zahájil koordinovaný útok na piemontské pozice. První střety začaly u vesnice Bicocca, kde se piemontská armáda pokusila o protiútok, ale byla tvrdě odražena rakouským dělostřelectvem. Po sérii neúspěšných piemontských protiútoků se jejich vojska dala na ústup. Král Karel Albert si uvědomil bezvýchodnost situace a následujícího dne abdikoval ve prospěch svého syna Viktora Emanuela II. Bitva znamenala konec první italské války za nezávislost.",
             "imageTactics": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Spruner-Menke_Handatlas_1880_Karte_28_Nebenkarte_9.jpg/300px-Spruner-Menke_Handatlas_1880_Karte_28_Nebenkarte_9.jpg",
@@ -99,7 +103,7 @@
         "pk": 6,
         "fields": {
             "title": "Bitva u Solferina",
-            "war": "Druhá italská válka za nezávislost",
+            "war": 5,
             "year": 1859,
             "description": "Finální bitva druhé italské války za nezávislost. Francouzské a Piemontské vojsko na hlavu poráží Rakušany.",
             "location": "Benátsko, Rakouské císařství",
@@ -107,6 +111,7 @@
             "image": "https://upload.wikimedia.org/wikipedia/commons/4/40/Yvon_Bataille_de_Solferino_Compiegne.jpg",
             "imageWar": "https://omniatlas-media.s3.amazonaws.com/dist/img/articles/main/northwest-europe/northwest-europe18590624.png",
             "tactics_link": "Taktiky bitvy u Solferina",
+            "era": [2, 3],
             "order": 6,
             "tactics":"Bitva u Solferina proběhla 24. června 1859 a byla jednou z nejkrvavějších bitev 19. století. Francouzské a piemontské jednotky pod vedením Napoleona III. a Viktora Emanuela II. zaútočily na rakouské pozice, které byly rozloženy na 15 km dlouhé frontě. Bitva byla chaotická, s bojovými střety probíhajícími současně na několika místech. Klíčovým bodem byla vesnice Solferino, kde probíhaly těžké boje muže proti muži. Po hodinách krvavých střetů se francouzským silám podařilo prolomit rakouské linie a přinutit císaře Františka Josefa I. k ústupu. Brutalita bitvy vedla Henri Dunanta k vytvoření Mezinárodního červeného kříže.",
             "imageTactics": "https://battlefieldanomalies.com/wp-content/uploads/2015/02/battle_map.gif",
@@ -118,7 +123,7 @@
         "pk": 7,
         "fields": {
             "title": "Bitva u Děčína",
-            "war": "Rakousko-pruská válka",
+            "war": 6,
             "year": 1866,
             "description": "Střet mezi rakouskými a pruskými jednotkami během prusko-rakouské války. Prusové získávají kontrolu nad severními Čechami.",
             "location": "Čechy, Rakouské císařství",
@@ -126,6 +131,7 @@
             "image": "https://battlefieldanomalies.com/wp-content/uploads/2015/12/08gitschin.jpg",
             "imageWar": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Map-AustroPrussianWar.svg/800px-Map-AustroPrussianWar.svg.png",
             "tactics_link": "Taktiky bitvy u Děčína",
+            "era": [2, 4],
             "order": 7,
             "tactics":"Bitva u Děčína se odehrála v červenci 1866, kdy pruské jednotky postupovaly na jih směrem k rozhodující bitvě u Hradce Králové. Rakouská armáda se pokusila pruský postup zpomalit a využila hornatého terénu k obraně strategických bodů. Prusové však díky moderní taktice a lepší koordinaci útoků postupně prolomili rakouské linie. Pruské jednotky využily svého rychlopalného jehlového puškového systému, což jim umožnilo efektivně zastavit rakouské protiútoky. Po několikahodinových bojích byli Rakušané donuceni ustoupit.",
             "imageTactics": "https://battlefieldanomalies.com/wp-content/uploads/2015/12/gitschin_final.jpg",
@@ -137,7 +143,7 @@
         "pk": 8,
         "fields": {
             "title": "Bitva u Königgrätz (Hradec Králové)",
-            "war": "Rakousko-pruská válka.",
+            "war": 6,
             "year": 1866,
             "description": "Rozhodující bitva prusko-rakouské války. Prusko získává velké vítězství, které nutí Rakouského císaře Franze Josefa přijmout příměří.",
             "location": "Čechy, Rakouské císařství",
@@ -145,6 +151,7 @@
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTCAk2r0wr4WiDiu0AwTMOdbvRhmDZU4eynA&s",
             "imageWar": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Map-AustroPrussianWar.svg/800px-Map-AustroPrussianWar.svg.png",
             "tactics_link": "Taktiky bitvy u Königgrätz",
+            "era": [2, 4],
             "order": 8,
             "tactics":"Bitva u Hradce Králové proběhla 3. července 1866 a byla největším střetem rakousko-pruské války. Rakušané zaujali silně opevněné pozice podél řeky Bystřice a očekávali frontální útok. Prusové však překvapili své nepřátele rozdělením sil – část armády vedla přímý útok na rakouské pozice, zatímco hlavní síly pod vedením generála von Moltkeho provedly obchvat přes les Svíb. Rakušané se dostali pod palbu pruského dělostřelectva a kvůli špatné koordinaci velení nebyli schopni efektivně reagovat. Po několika hodinách bojů se rakouská armáda dala na ústup a Prusko dosáhlo rozhodujícího vítězství.",
             "imageTactics": "https://warfarehistorynetwork.com/wp-content/uploads/M-Koniggratz-MAP.jpg",
@@ -164,6 +171,7 @@
             "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/Steinmetz%2C_Gen.-In_the_battle_of_Saarbr%C3%BCcken_LCCN99405831.jpg",
             "imageWar": "https://i.ytimg.com/vi/F2qDtnduJXs/maxresdefault.jpg",
             "tactics_link": "Taktiky bitvy u Saarbrückenu",
+            "era": [2, 4],
             "order": 9,
             "tactics":"Bitva u Saarbrückenu se odehrála 2. srpna 1870 jako první střet francouzsko-pruské války. Francouzské jednotky zahájily útok s cílem získat kontrolu nad strategickým průmyslovým centrem a zahájit invazi do Německa. Francouzské dělostřelectvo mělo zpočátku úspěch a podařilo se mu vytlačit Prusy z některých pozic. Nicméně pruské jednotky brzy zorganizovaly protiútok a využily lepší koordinace a rychlejšího přesunu jednotek. Po několikahodinovém boji Francouzi ustoupili, čímž se válka přesunula na francouzské území.",
             "imageTactics": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Saarbruckenmap.jpg/220px-Saarbruckenmap.jpg",
@@ -175,7 +183,7 @@
         "pk": 10,
         "fields": {
         "title": "Bitva u Sedanu",
-        "war": "Francouzsko-pruská válka.",
+        "war": 7,
         "year": 1870,
         "description": "Jedna z největších bitev prusko-francouzské války. Francouzská armáda se stáhla do pevnosti z 16. století a byla donucena se, v čele s císařem Napoleonem III., vzdát.",
         "location": "Artois, Francie",
@@ -183,6 +191,7 @@
         "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Nap_sedan_von_Wilhelm_Camphausen.jpg",
         "imageWar": "https://i.ytimg.com/vi/F2qDtnduJXs/maxresdefault.jpg",
         "tactics_link": "Taktiky bitvy u Sedanu",
+        "era": [2, 4],
         "order": 10,
         "tactics":"Bitva u Sedanu proběhla 1.–2. září 1870 a byla rozhodujícím střetem francouzsko-pruské války. Francouzská armáda vedená císařem Napoleonem III. se pokusila uniknout z obklíčení u Sedanu, ale pruské jednotky rychle zablokovaly všechny únikové cesty. Prusové zahájili systematické bombardování města, zatímco jejich pěchota postupovala v koordinovaném obklíčení. Francouzské pokusy o průlom selhaly a Napoleon III. byl nucen se se svou armádou vzdát. Bitva ukončila Druhé Francouzské císařství a vedla k vyhlášení Německého císařství v roce 1871.",
         "imageTactics": "https://www.ospreypublishing.com/media/_osprey-blog-legacy/Franco-Prussian_War_Map.png",
@@ -271,6 +280,50 @@
             "context": "Francouzsko-pruská válka (1870–1871) byla důsledkem rostoucího napětí mezi Francií a Pruskem, které usilovalo o sjednocení německých států. Francie se obávala vzestupu Pruska jako dominantní síly v Evropě, což vedlo k diplomatické krizi vyvolané tzv. Emžskou depeší. Napoleon III. pod tlakem veřejnosti vyhlásil Prusku válku, což se ukázalo jako strategická chyba.\n\nPrusko bylo na válku mnohem lépe připraveno díky efektivní mobilizaci, železniční infrastruktuře a modernějším zbraním. Klíčovou bitvou konfliktu byla bitva u Sedanu (1.–2. září 1870), kde byla francouzská armáda obklíčena a Napoleon III. se musel vzdát. To vedlo k pádu Druhého Francouzského císařství a vzniku Třetí republiky.\n\nVálka skončila obléháním Paříže a jejím kapitulováním v lednu 1871. Důsledkem bylo vyhlášení Německého císařství ve Versailles, čímž byla završena snaha Pruska o sjednocení Německa pod vedením Otto von Bismarcka. Francie musela postoupit Alsasko-Lotrinsko a zaplatit válečné reparace, což v ní zanechalo silnou touhu po pomstě, která přispěla k napětí vedoucímu k první světové válce.",
             "imageWar": "https://i.ytimg.com/vi/F2qDtnduJXs/maxresdefault.jpg",
             "belligerents": "Francie vs Prusko a německé státy"
+        }
+    },
+    {
+        "model": "content.era",
+        "pk": 1,
+        "fields": {
+            "name": "Napoleonské války",
+            "start": 1803,
+            "end": 1815,
+            "contextEra": "Napoleonské války byly sérií konfliktů, které se odehrály během vlády Napoleona Bonaparte ve Francii. Tyto války zahrnovaly řadu konfliktů, včetně napoleonských válek, které vedly k pádu Napoleona a restauraci Bourbonů ve Francii. Války také zahrnovaly války šesté a sedmé koalice, které vedly k pádu Napoleona a jeho exilu na Svatou Helenu.",
+            "imageEra": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Napoleonic_Wars.svg/800px-Napoleonic_Wars.svg.png"
+        }
+    },
+    {
+        "model": "content.era",
+        "pk": 2,
+        "fields":{
+            "name": "Viktoriánská éra",
+            "start": 1837,
+            "end": 1901,
+            "contextEra": "Viktoriánská éra byla obdobím historie, které se vyznačovalo dlouhým panováním královny Viktorie. Toto období bylo charakterizováno průmyslovou revolucí, koloniální expanzí a sociálními reformami. Viktoriánská éra byla také obdobím velkého kulturního rozkvětu, včetně literatury, umění a vědy.",
+            "imageEra": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Napoleonic_Wars.svg/800px-Napoleonic_Wars.svg.png"
+        }
+    },
+    {
+        "model": "content.era",
+        "pk": 3,
+        "fields": {
+            "name": "Doba mušket",
+            "start": 1800,
+            "end": 1859,
+            "contextEra": "Doba mušket je období kdy se moderní zbraňové technologie teprve rozšiřovali mezi Evropské armády",
+            "imageEra": ""
+        }
+    },
+    {
+        "model": "content.era",
+        "pk": 4,
+        "fields": {
+            "name": "Doba pušek",
+            "start": 1860,
+            "end": 1900,
+            "contextEra": "Doba pušek je období kdy se moderní zbraňové technologie rozšířili mezi Evropské armády",
+            "imageEra": ""
         }
     }
 ]
