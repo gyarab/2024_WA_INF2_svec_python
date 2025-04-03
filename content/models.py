@@ -13,12 +13,6 @@ class War(models.Model):
         return self.name
 
 
-class Tactics(models.Model):
-    description = models.TextField()
-
-    def __str__(self):
-        return self.description
-
 
 class Era(models.Model):
     name = models.CharField(max_length=100)
