@@ -13,7 +13,6 @@ class War(models.Model):
         return self.name
 
 
-
 class Era(models.Model):
     name = models.CharField(max_length=100)
     start = models.IntegerField()
