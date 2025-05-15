@@ -25,15 +25,15 @@ class Era(models.Model):
 
 
 class Article(models.Model):
-    title = models.CharField(max_length=100)
+    title = models.CharField(max_length=200)
     year = models.IntegerField()
     war = models.CharField(max_length=200)
-    description = models.CharField(max_length=200)
+    description = models.TextField()
     location = models.CharField(max_length=100)
     casualties = models.IntegerField(default=0)
-    image = models.URLField(max_length=100)
+    image = models.URLField(max_length=300)
     imageWar = models.URLField(max_length=100)
-    tactics_link = models.CharField(max_length=100)
+    tactics_link = models.CharField(max_length=200)
     tactics = models.TextField()
     imageTactics = models.URLField(max_length=100)
     context = models.ForeignKey(War, on_delete=models.CASCADE, related_name='articles')

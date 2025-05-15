@@ -31,7 +31,7 @@
             "casualties": 92000,
             "image": "https://assets.editorial.aetnd.com/uploads/2009/12/Battle-of-Leipzig-GettyImages-902944398.jpg",
             "imageWar": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/War_of_the_Sixth_Coalition_1813.svg/2021px-War_of_the_Sixth_Coalition_1813.svg.png",
-            "tactics_link": "Taktiky bitv u Lipska",
+            "tactics_link": "Taktiky bitvy u Lipska",
             "eras": [1, 3],
             "order": 2,
             "tactics":"Bitva začala 16. října 1813, kdy Napoleon zahájil ofenzivu proti spojeneckým vojskům rozloženým kolem Lipska. Počáteční útoky Francouzů byly úspěšné a podařilo se jim udržet své pozice. Nicméně 18. října spojenecké armády zahájily koordinovaný protiútok a sevřely Napoleonovu armádu ze všech stran. Francouzské jednotky se snažily ustoupit přes řeku Elster, avšak zničení mostu během ústupu způsobilo paniku mezi francouzskými jednotkami a vedlo ke značným ztrátám. Napoleon nakonec opustil Lipsko a ustoupil směrem k Rýnu.",
@@ -219,7 +219,7 @@
             "start": 1813,
             "end": 1814,
             "contextWar": "Válka šesté koalice (1813–1814) byla rozhodujícím konfliktem v napoleonských válkách, ve kterém se spojily evropské mocnosti proti Francii. Koalici tvořily Prusko, Rakousko, Rusko, Švédsko a Británie, které se snažily zastavit Napoleonovu nadvládu v Evropě.\n\nHlavní událostí války byla Bitva národů u Lipska v říjnu 1813, která byla největší bitvou napoleonských válek. Koaliční síly dosáhly drtivého vítězství a Napoleon byl nucen ustoupit zpět do Francie. To vedlo k invazi spojeneckých armád do Paříže a k Napoleonovu abdikaci v roce 1814.\n\nDůsledkem války bylo obnovení bourbonské monarchie ve Francii a exil Napoleona na ostrov Elba. Nicméně konflikt nebyl zcela ukončen, protože o rok později se Napoleon pokusil o návrat během Sto-denní kampaně.",
-            "imageWar": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/War_of_the_Sixth_Coalition_1813.svg/2021px-War_of_the_Sixth_Coalition_1813.svg.png",
+            "imageWar": "https://slideplayer.cz/slide/3208274/11/images/14/%28Lipsko%29+%28Slavkov%29+%28R%C3%BDnsk%C3%BD+spolek%29.jpg",
             "belligerents":"Francie vs Rakousko, Rusko, Velká Británie, Prusko, Švédsko"
     }
     },
