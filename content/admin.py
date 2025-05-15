@@ -1,7 +1,7 @@
 from django.contrib import admin
 
 # Register your models here.
-from .models import Article, War, Tactics, Era
+from .models import Article, War, Era
 
 admin.site.register(Article)
 admin.site.register(War)

@@ -12,6 +12,4 @@ urlpatterns = [
     path('tactics/<str:tactics_link>/', content.views.article_tactics),
     path('era/<int:id>', content.views.era),
 
-    if settings.DEBUG:
-    urlpatterns+=static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 ]

@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 
-from .models import Article, War, Tactics, Era
+from .models import Article, War, Era
 
 import requests
 import json
